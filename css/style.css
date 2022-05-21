@@ -68,7 +68,13 @@ h2 {
     border: none;
     color: white;
     font-size: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 
+}
+
+.con2{
+    display: none;
 }
 
 .image {
@@ -77,6 +83,8 @@ h2 {
     height: 40%;
     font-size: 12px;
     margin-bottom: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
     
 }
 .bag {
@@ -128,7 +136,6 @@ h2 {
     margin:20px 20px 50px 20px;
 }
 
-
 .shipping {
     display: flex;
     justify-content: space-between;
@@ -150,28 +157,15 @@ h2 {
     .container {
         display: flex;
         flex-direction: column;
+        /* justify-content: center; */
         align-items: center;
-        margin: 20px;   
+        margin: 20px;    }
+    .con1{
+        display: none;
     }
-    .image {
-        background-color: #eee;
-        
+    .con2{
+        display: block;
+        margin-top: 20px;
     }
-}
 
-@media (max-width:1200px) {
-    .image {
-        width: 50%
-    }
-    .bot-kutu div{
-        margin-top: 10px;
-        font-size: 10px;
-        width: 70px;
-        margin: -5px;
-    }
-    .bot-kutu div span:nth-child(odd){
-        font-size: 10px;
-        color: black;
-          
-    }
 }
